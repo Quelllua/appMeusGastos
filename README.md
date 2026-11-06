@@ -4,7 +4,7 @@ Projeto de referência do tutorial "Meus Gastos". Pacote: `br.unasp.meusgastos`,
 
 ## Como abrir
 1. No Android Studio: **File > Open** e escolha a pasta `MeusGastos`.
-2. Aguarde a sincronização do Gradle. (Este ZIP não inclui o *Gradle Wrapper*; o Android Studio usa o Gradle embutido ou oferece baixar a versão adequada.)
+2. Aguarde a sincronização do Gradle. 
 3. **Build > Make Project** e depois **Run**.
 
 Alternativa (como no tutorial, seção 10): crie um projeto *Empty Activity* com Kotlin DSL, package `br.unasp.meusgastos`, e copie apenas a pasta `app/src/main/java/br/unasp/meusgastos`, ajustando `libs.versions.toml` e `app/build.gradle.kts` conforme o passo 2 e 3 do tutorial.
